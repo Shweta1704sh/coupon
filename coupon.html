@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <title>Coupon Page</title>
+        <link href="coupon.css" rel="stylesheet"/>
+        <script src="coupon.js"></script>
+    </head>
+    <body>
+        <div id="main">
+            <center>
+                <h1>Coupons Page</h1>
+            </center>
+        </div>
+        <div id="coupon">
+            <button onClick="closeCoupon()" style="float:right;">&times;</button><br/>
+            <div id="couponHeading">
+                <span id="heading">HAPPY NEW PRICES</span>
+                <p id="text"><b style="color:red; font-size:40px;">Netflix</b> on any device</p>
+                <p id="text"><strike style="color:grey;">Rs.199</strike> Rs.149</p>
+                <p id="text1">This is the real <i>Money</i> Heist.</p>
+                <p id="text1">Let's be F.R.I.E.N.D.S?</p>
+            </div>
+            <div id="couponFooter">
+                <p style="font-size:10px;">*T&C Apply|To know more log on to www.netflix.com</p>
+            </div>
+        </div>
+        
+        <script>
+            window.onload = loadCoupon()
+        </script>
+
+    </body>
+</html>
